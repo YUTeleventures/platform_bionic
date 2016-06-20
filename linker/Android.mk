@@ -39,7 +39,7 @@ LOCAL_CFLAGS_arm += -D__work_around_b_19059885__
 LOCAL_CFLAGS_x86 += -D__work_around_b_19059885__
 
 LOCAL_CONLYFLAGS += \
-    -std=gnu11 \
+    -std=gnu99 \
 
 LOCAL_CPPFLAGS += \
     -std=gnu++11 \
